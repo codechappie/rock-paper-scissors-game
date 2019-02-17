@@ -262,13 +262,16 @@ body{
     height: 70px;
     outline: none;
     cursor: pointer;
+    border: 0;
 }
 .mini-circle:hover{
     background-color: rgb(148, 140, 140);
     outline: none;
+    border: 0;
 }
 *:focus, *:hover{
     outline: none;
+    border: 0;
 }
 .rock img, .paper img, .scissor img {
     margin: 14%;
