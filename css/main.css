@@ -122,6 +122,16 @@ body{
     width: 70%;
 }
 
+.btn-paper{
+    background-image: url('../image/icons8-hand-scissors-96.png');
+    background-size: cover;
+    outline: none;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
 @media screen and (max-width: 864px){
    
 nav{
@@ -237,10 +247,7 @@ body{
     background-color: rgb(148, 140, 140);
     outline: none;
 }
-*:focus{
-    outline: none;
-}
-*:hover{
+*:focus, *:hover{
     outline: none;
 }
 .rock img, .paper img, .scissor img {
