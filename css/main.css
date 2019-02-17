@@ -237,6 +237,12 @@ body{
     background-color: rgb(148, 140, 140);
     outline: none;
 }
+*:focus{
+    outline: none;
+}
+*:hover{
+    outline: none;
+}
 .rock img, .paper img, .scissor img {
     margin: 14%;
     width: 70%;
