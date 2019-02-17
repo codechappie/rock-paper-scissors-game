@@ -122,12 +122,32 @@ body{
     width: 70%;
 }
 
-.btn-paper{
+.btn-rock{
+    background-image: url('../image/icons8-clenched-fist-96.png');
+    background-size: cover;
+    outline: none;
+    width: 90px;
+    height: 90px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-scissor{
     background-image: url('../image/icons8-hand-scissors-96.png');
     background-size: cover;
     outline: none;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-paper{
+    background-image: url('../image/icons8-hand-96.png');
+    background-size: cover;
+    outline: none;
+    width: 90px;
+    height: 90px;
     border: 0;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -256,6 +276,40 @@ body{
     border-radius:100%;
     background-color: #fff;
     border: 0;
+}
+
+
+.btn-rock{
+    background-image: url('../image/icons8-clenched-fist-96.png');
+    background-size: cover;
+    outline: none;
+    width: 50px;
+    margin: 14%;
+    height: 50px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-scissor{
+    background-image: url('../image/icons8-hand-scissors-96.png');
+    background-size: cover;
+    outline: none;
+    width: 50px;
+    margin: 14%;
+    height: 50px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-paper{
+    background-image: url('../image/icons8-hand-96.png');
+    background-size: cover;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    margin: 14%;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 }
